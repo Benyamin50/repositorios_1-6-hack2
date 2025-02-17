@@ -1,0 +1,64 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+
+}
+
+body {  
+    margin: 0;  
+}  
+
+
+
+.content{
+    width: 700px;
+   margin: auto;
+  padding: 10px 0 10px 0;
+}
+
+.header {  
+    background-color: var(--bg-blue);  
+    height: 120px; 
+}  
+
+.container {  
+    overflow: hidden; 
+    width: 100%;  
+    height: 250px;
+ }  
+
+.left-box {  
+    background-color: var(--bg-wine); 
+    height: 400px; 
+    width: 50%;  
+    float: left; 
+}  
+
+.right-box {  
+    background-color: var(--bg-wine); 
+    height: 400px; 
+    width: 50%;   
+    float: right; 
+    
+}  
+
+.lower-boxes {  
+    clear: both; 
+    width: 100%; 
+   
+}  
+
+.full-box {  
+    background-color: var(--bg-wine); 
+    height: 100px; 
+  width: 80%;    
+    margin: 20px 0; 
+    
+}  
+
+.footer {  
+    background-color: var(--bg-wine); 
+    height: 60px; 
+    clear: both; 
+    margin: 0 20px 0 20px;  
+}  
